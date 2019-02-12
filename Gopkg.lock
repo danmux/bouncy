@@ -71,6 +71,14 @@
   version = "v0.7.0"
 
 [[projects]]
+  branch = "master"
+  digest = "1:7f967b858b904ae57b98450d712204afc88d565588f57a271157e8fce3899d35"
+  name = "github.com/blevesearch/cld2"
+  packages = ["."]
+  pruneopts = "UT"
+  revision = "10f17c049ec9b2c706118870a0f580a370217a65"
+
+[[projects]]
   digest = "1:c7ca2c9ba8df8413dc4a42524d6051a52b2a1eaf2c57abbf72f70b3aec832425"
   name = "github.com/blevesearch/go-porterstemmer"
   packages = ["."]
@@ -105,14 +113,6 @@
   ]
   pruneopts = "UT"
   revision = "e91b68ff3efe3cc11723aa25dd315cbc9276cd65"
-
-[[projects]]
-  digest = "1:ffe9824d294da03b391f44e1ae8281281b4afc1bdaa9588c9097785e3af10cec"
-  name = "github.com/davecgh/go-spew"
-  packages = ["spew"]
-  pruneopts = "UT"
-  revision = "8991bc29aa16c548c550c7ff78260e27b9ab7c73"
-  version = "v1.1.1"
 
 [[projects]]
   digest = "1:edb569dd02419a41ddd98768cc0e7aec922ef19dae139731e5ca750afcf6f4c5"
@@ -161,6 +161,14 @@
   pruneopts = "UT"
   revision = "bb6d471dc95d4fe11e432687f8b70ff496cf3136"
   version = "v1.0.0"
+
+[[projects]]
+  branch = "master"
+  digest = "1:6e75e1a020179b6ea73c87ae57b85f953b26f60bb1fde6a3afed80d0338ae6f8"
+  name = "github.com/slyrz/warc"
+  packages = ["."]
+  pruneopts = "UT"
+  revision = "a50edd19b690788e7559b1581bf96523c9f493f3"
 
 [[projects]]
   branch = "master"
@@ -213,7 +221,8 @@
     "github.com/blevesearch/bleve",
     "github.com/blevesearch/bleve/index/store",
     "github.com/blevesearch/bleve/registry",
-    "github.com/davecgh/go-spew/spew",
+    "github.com/blevesearch/cld2",
+    "github.com/slyrz/warc",
   ]
   solver-name = "gps-cdcl"
   solver-version = 1
